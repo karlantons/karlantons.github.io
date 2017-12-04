@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+
+.wallcopy {
+  background-image: url("img/wall copy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+.sunset{
+  background-image: url("img/fonna1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+
+header {
+  margin-right: 30px;
+
+}
+
+
+.meny {
+ display: flex;
+}
+
+.home{
+flex: auto;
+justify-content: flex-start;
+}
+
+.list{
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width: 1000px;*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1{
+
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+h3{
+  font-size: 50px;
+}
+
+p {
+  font-family: serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.about p{
+  font-size: 20px;
+}
+
+a {
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a:hover{
+  /*background-color: black;*/
+  color: orange;
+}
+
+.bild{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+
+}
+
+.home img{
+  margin-top: 10px;
+  height: 100px;
+
+}
+
+.bild img {
+
+  display: flex;
+  justify-content: center;
+}
+
+.textcont {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+.aboutcontainer{
+  flex: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 600px;
+  color: white;
+ }
+
+figure{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+footer h4{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 414px){
+  .aboutcontainer{
+    margin-top: 600px;
+    color: white;
+   }
+}
